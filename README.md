@@ -14,9 +14,13 @@ Restore.sh -> Deixar em /root/
 ## Editar o seguinte em GerarBackup.sh
 
 TOGENERATE="/backups" -> Caminho onde o arquivo de backup será gerado no servidor local
+
 HOST="server.suaempresa.tld" -> Servidor de destino
+
 USUARIO="root" -> Usuário para o SSH
+
 CHAVESSH="/root/.ssh/chave_rsa" -> Caminho para a chave SSH
+
 PORTA="22022" -> Porta SSH
 
 ## Após editar
