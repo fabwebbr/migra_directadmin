@@ -7,10 +7,10 @@ REVENDA="xyz"
 TOGENERATE="/home/admin/admin_backups/"
 
 # Servidor de destino
-HOST="da2.srvhr.com.br"
+HOST="hostname.do.server.com"
 USUARIO="root"
-CHAVESSH="/root/.ssh/FW"
-PORTA="22022"
+CHAVESSH="caminho/da/chave"
+PORTA="22"
 
 #####################################################################################
 ######################## Abaixo já está tudo pronto #################################
