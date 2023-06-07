@@ -1,13 +1,12 @@
 ## migra_directadmin
-Script em sh para migrar revendas e seus clientes para servidor Directadmin novo.
+Script em sh para gerar o backup dos arquivos de uma revenda e seus clientes para servidor Directadmin novo.
 Você precisa ter um mínimo de conhecimento para usar este script
 
 ## Sobre o uso
 GerarBackup.sh -> Deixar em uma pasta de sua preferência no servidor de origem
-Restore.sh -> Deixar em /root/
 
 -> Todos os backups serão gerados pelo GerarBackup.sh e enviados para a pasta /home/admin/admin_backups;
--> O script vai gerar o backup de todos os revendedores do DirectAdmin, enviá-los, enfileirar para restaurar e depois disso irá fazer de cada cliente;
+-> O script vai gerar o backup de todos os revendedores do DirectAdmin, enviá-los para o novo servidor e você deve restaurar manualmente no destino
 -> Você precisa gerar uma chave para acesso SSH
 
 # Antes do uso
